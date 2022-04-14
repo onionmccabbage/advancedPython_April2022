@@ -1,0 +1,4 @@
+Description: light rain Temperature: 14°C in Athlone
+The wind speed is 5.12 coming from 167° 
+Description: overcast clouds Temperature: 14°C in Galway
+The wind speed is 7.18 coming from 158° 
