@@ -1,0 +1,57 @@
+Advanced Python
+===============
+
+Thursday April 14 2022
+
+Toby Dussek
+
+Key Objetives
+- Master Object Oriented Programming with Python
+- Advanced use of classes and objects
+- Python concurrency for application performance
+
+Virtual Machines
+- remote desktop to ...
+- username is Administrator
+- password is c0nygre
+
+All my code is here:
+https://github.com/onionmccabbage/advancedPython_April2022
+
+
+Advanced classes and objects 
+> Review 
+> Operator overloading numeric types 
+> Overloading the __getitem__ operator 
+> Inheritance 
+> Abstract classes 
+> Metaclasses 
+> Attribute lookup 
+> Descriptors 
+> Properties 
+
+Python Design Patterns
+> Advantages of patterns 
+> Spotting and avoiding anti-patterns 
+> Factory, Façade and Proxy patterns 
+- Observer and Command patterns 
+- Stateful patterns 
+
+Exercise
+> Create OO application
+
+Concurrency
+> Why concurrency? 
+> Creating threads 
+> Running threads 
+> Locking objects 
+- Synchronisation: mutex, semaphore, condition, queue objects 
+- The multiprocessing module 
+
+Exercise
+> Enhance earlier exercise with concurrency
+
+https://pynative.com/python-exercises-with-solutions/
+
+end of day evaluation
+https://forms.office.com/r/z7hgZi67Fq
