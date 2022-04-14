@@ -1,0 +1,44 @@
+Python Further Advanced Review Exercise - until 4:30 then 'show and tell'
+=======================================
+For this project, use modules and imports to separate your code structure
+In a new Python module, declare a 'WeatherGetter' class (inherit from 'Thread')
+Initialize it to take a 'city' parameter
+
+You will need something like this at the top of your module:
+  import requests
+
+Add a 'run' method to your class then
+Populate a response object by calling 'requests.get' for this end-point:
+  http://api.openweathermap.org/data/2.5/weather?q=athlone&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1
+  (replace 'athlone' with the city parameter)
+  (You may choose to sign up for a free API key)
+Populate a 'data' object from the response as JSON, then set self.temperature to the returned temperature, e.g.
+  data = json.loads(response.text) 	   # convert the returned reponse to JSON
+  self.temperature = data['main']['temp']  # access the temperature property from the JSON
+(You could also read the weather description, wind speed and direction)
+
+Declare a list of cities, e.g. 
+  CITIES = ['Athlone', 'Dublin', 'Galway', 'Belfast', 'London', 'Cork', 'Lund', 'Kista']
+Use threading to iterate over these cities and print out the temperature for each of the cities
+
+Remember to code against the main types of error that might occur here
+
+Now make your weather calls on Threads. E.g. make calls for several cities at the same time
+Measure how long it takes to make multiple weather calls
+Use locking to safely write your weather results to a text file
+
+If Time
+------- 
+Use a semaphore, since the weather service can certainly handle more than one request at a time
+Declare a data structure to record each city and temperature, along with a time-stamp
+Each thread should add to this structure, using locks as needed (enter nulls on error)
+When all threads complete, persist the contents of this structure to a text file (overwrite each time)
+
+Optional
+--------
+Also show other weather data, such as wind speed and direction, the weather description etc.
+Show the temperature as Celcius (the default), Kelvin (-273) and Fahrenheit (°F=°C*1.8+32.0)
+
+Populate the weather data into a 'Weather' class, with validated properties and a __str__ method
+
+Try retrieving a lot of cities (but be careful of the 60-a-minute limit):
