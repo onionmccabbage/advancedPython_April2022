@@ -53,6 +53,7 @@ def useLocationGenerator():
 
 if __name__ == '__main__':
     pass
-    # askUser()
-    useLocationGenerator()
+    askUser()
+    # useLocationGenerator()
     # readCities()
+    # or pass in argv on sys

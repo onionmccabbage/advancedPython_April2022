@@ -2,12 +2,12 @@
 
 def locationGen():
     locations = [
-        ('Athlone','ie'),
-        ('Galway','ie'),
         ('Hull','uk'),
         ('Canberra','aus'),
         ('Berlin','de'),
         ('Madrid','es')
+        ('Athlone','ie'),
+        ('Galway','ie'),
     ]
     index = 0
     while index < len(locations):

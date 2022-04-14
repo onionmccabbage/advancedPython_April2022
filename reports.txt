@@ -1,0 +1,14 @@
+Description: light rain Temperature: 14°C in Athlone
+The wind speed is 5.12 coming from 167° 
+Description: overcast clouds Temperature: 14°C in Galway
+The wind speed is 7.18 coming from 158° 
+Description: light rain Temperature: 14°C in Athlone
+The wind speed is 5.12 coming from 167° 
+Description: overcast clouds Temperature: 14°C in Galway
+The wind speed is 7.18 coming from 158° 
+Description: scattered clouds Temperature: 18°C in Hull
+The wind speed is 4.12 coming from 220° 
+Description: scattered clouds Temperature: 11°C in Canberra
+The wind speed is 1.03 coming from 170° 
+Description: few clouds Temperature: 18°C in Madrid
+The wind speed is 3.09 coming from 60° 
